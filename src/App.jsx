@@ -5,6 +5,7 @@ import About from "./components/About";
 import Tech from "./components/Tech";
 import Expe from "./components/Expe";
 import Projects from "./components/Projects";
+import Footer from "./components/Footer";
 const App=()=>{
   return(
     <div className='overflow-x-hidden text-neutral-300 selection:bg-cyan-300 selection:text-cyan-900'>
@@ -21,6 +22,7 @@ const App=()=>{
       <Tech/>
       <Expe/>
       <Projects/>
+      <Footer/>
     </div>
     </div>
   )
