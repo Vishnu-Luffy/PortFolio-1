@@ -1,76 +1,81 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const HERO_CONTENT = `Hello, I'm Vishnu Vardhan Reddy, a passionate and driven aspiring front-end developer. I thrive on the excitement of creating dynamic, user-friendly web applications that make a difference. With a solid foundation in HTML, CSS,JavaScript,and React I am eager to explore new technologies and frameworks to elevate my skills and deliver exceptional user experiences.`;
+
+export const ABOUT_TEXT = `I am a dedicated and versatile front end developer with a passion for creating efficient and user-friendly web applications. I have worked with a variety of technologies, including React, Node.js,Tailwind(css),Gsap,Framer Motion. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year:"Developed Responsive Web Applications",
+   
+   
+    description: `Designed and implemented user-friendly, responsive web applications using HTML, CSS, and JavaScript frameworks like React`,
+    technologies: ["Javascript", "React.js",],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "API Integration:",
+   
+    description: `Integrated third-party APIs to enhance web applications with dynamic content and features.`,
+    technologies: ["Fetch","Axios","Async"],
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    year: "Version Control:",
+    
+    description: `Used Git and GitHub for version control and collaboration, maintaining a clean and organized codebase.`,
+    technologies: ["Git"],
   },
   {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "Performance Optimization:",
+   
+    description: `Optimized web applications for speed and scalability, improving load times and overall performance.`,
+    technologies: ["Redux","Context Api","Lazy Loading"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    image: project1,
+    title: "Animated Web Site:",
+    image:"src/assets/projects/background.jpg",
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "This project involved the creation of an engaging and visually dynamic website using React. The website features seamless and smooth animations that enhance user experience and interactivity. Leveraging React component-based architecture, the site ensures efficient performance and maintainability.",
+     link:"https://brainwave-main-mu.vercel.app",
+      technologies: ["HTML", "CSS", "React", "Node.js","Framer Motion"],
   },
   {
-    title: "Task Management App",
-    image: project2,
+    title: "GSAP Project: Interactive Banner Animation",
+    image:"src/assets/projects/boundary.png",
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Developed an interactive banner animation using the GreenSock Animation Platform (GSAP) to enhance user engagement on a website. The project involved creating smooth, visually appealing animations that respond to user interactions, such as hover and click events",
+      link:"#",
+      technologies: ["HTML", "CSS", "React","Gsap"],
   },
   {
     title: "Portfolio Website",
-    image: project3,
+    image:"src/assets/projects/React-App.png",
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    link:"https://react-portfol-1.vercel.app",
+      technologies: ["HTML", "CSS", "React", "React Routing","Redux"],
   },
   {
-    title: "Blogging Platform",
-    image: project4,
+    title: " React Project WEATHER APP: ",
+    image:"src/assets/projects/logo.png",
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Developed a modern, responsive weather application that fetches and displays real-time weather data using React and a weather API. The app aims to provide users with up-to-date weather information in an intuitive and visually appealing format.",
+     link:"https://weather-pwa-eosin.vercel.app",
+      technologies: ["HTML", "CSS","API","React","PWA"],
   },
+
 ];
 
+export const Achive={
+  Achiv:`During my academic journey, I have demonstrated excellence in both sports and personal development. At the collegiate level, I showcased my volleyball prowess by winning three tournaments. In school, I was an integral part of our team that triumphed in the prestigious National Level Lagore Championship. My versatility extends beyond traditional sports; I received recognition for my skills in various esports teams. Additionally, I was honored with a medal for all-round development during my intermediate studies, reflecting my commitment to holistic growth.
+  Apart from volleyball and esports, I have actively participated in a range of sports, including shuttle, cricket, and swimming, further highlighting my diverse athletic abilities.`,
+      
+};
+
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Telangana,Hyderabad,jeedimetla",
+  phoneNo: "+91 6302035581 ",
+  email: "tenalivishnuvardhanreddy007@gmail.com",
 };

@@ -6,9 +6,10 @@ import Tech from "./components/Tech";
 import Expe from "./components/Expe";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
+import Achive from "./components/Achive";
 const App=()=>{
   return(
-    <div className='overflow-x-hidden text-neutral-300 selection:bg-cyan-300 selection:text-cyan-900'>
+    <div className='overflow-hidden text-neutral-300 selection:bg-cyan-300 selection:text-cyan-900'>
      
      <div className='fixed top-0 -z-10 h-full w-full'>
 
@@ -22,6 +23,7 @@ const App=()=>{
       <Tech/>
       <Expe/>
       <Projects/>
+      <Achive/>
       <Footer/>
     </div>
     </div>
