@@ -35,7 +35,7 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "Animated Web Site:",
-    image:"src/assets/projects/background.jpg",
+    image:"../assets/projects/background.jpg",
     description:
       "This project involved the creation of an engaging and visually dynamic website using React. The website features seamless and smooth animations that enhance user experience and interactivity. Leveraging React component-based architecture, the site ensures efficient performance and maintainability.",
      link:"https://brainwave-main-mu.vercel.app",
@@ -43,7 +43,7 @@ export const PROJECTS = [
   },
   {
     title: "GSAP Project: Interactive Banner Animation",
-    image:"src/assets/projects/boundary.png",
+    image:"../assets/projects/boundary.png",
     description:
       "Developed an interactive banner animation using the GreenSock Animation Platform (GSAP) to enhance user engagement on a website. The project involved creating smooth, visually appealing animations that respond to user interactions, such as hover and click events",
       link:"#",
@@ -51,7 +51,7 @@ export const PROJECTS = [
   },
   {
     title: "Portfolio Website",
-    image:"src/assets/projects/React-App.png",
+    image:"../assets/projects/React-App.png",
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     link:"https://react-portfol-1.vercel.app",
@@ -59,7 +59,7 @@ export const PROJECTS = [
   },
   {
     title: " React Project WEATHER APP: ",
-    image:"src/assets/projects/logo.png",
+    image:"../assets/projects/logo.png",
     description:
       "Developed a modern, responsive weather application that fetches and displays real-time weather data using React and a weather API. The app aims to provide users with up-to-date weather information in an intuitive and visually appealing format.",
      link:"https://weather-pwa-eosin.vercel.app",

@@ -38,7 +38,7 @@ const Hero=()=>{
                          initial={{x:100 ,opacity:0}}
                          animate={{x:0,opacity:1}}
                          transition={{duration:1,delay:1.2}}
-                         className="w-[400px] h-[400px]" src="src/assets/profile.webp" alt=""/>
+                         className="w-[400px] h-[400px]" src="../assets/profile.webp" alt=""/>
                     </div>
                 </div>
             </div>

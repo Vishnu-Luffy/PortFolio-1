@@ -20,22 +20,22 @@ const Achive=()=>{
                whileInView={{opacity:1,x:0}}
                initial={{opacity:0,x:-100}}
                transition={{duration:1}}
-            className="w-[400px] h-[400px]" src="src/assets/Achivements/Game.jpg" alt="Game" />
+            className="w-[400px] h-[400px]" src="../assets/Achivements/Game.jpg" alt="Game" />
             <motion.img
                  whileInView={{opacity:1,x:0}}
                  initial={{opacity:0,x:100}}
                  transition={{duration:1}}
-             className="w-[400px] h-[400px]" src="src/assets/Achivements/Kabaddi.jpg" alt="Game" />
+             className="w-[400px] h-[400px]" src="../assets/Achivements/Kabaddi.jpg" alt="Game" />
             <motion.img
                 whileInView={{opacity:1,x:0}}
                 initial={{opacity:0,x:-100}}
                 transition={{duration:1}}
-             className="w-[400px] h-[400px]" src="src/assets/Achivements/Medal.jpg" alt="Game" />
+             className="w-[400px] h-[400px]" src="../assets/Achivements/Medal.jpg" alt="Game" />
             <motion.img
                   whileInView={{opacity:1,x:0}}
                   initial={{opacity:0,x:100}}
                   transition={{duration:1}}
-             className="w-[400px] h-[400px]" src="src/assets/Achivements/Vollyball.jpg" alt="Game" />
+             className="w-[400px] h-[400px]" src="../assets/Achivements/Vollyball.jpg" alt="Game" />
           </div>
         </div>
     )
