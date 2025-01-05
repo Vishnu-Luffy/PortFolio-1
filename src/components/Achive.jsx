@@ -7,7 +7,7 @@ const Achive=()=>{
            whileInView={{opacity:1,y:0}}
            initial={{opacity:0,y:-100}}
            transition={{duration:1}}
-          className="text-4xl text-center">achivements</motion.h2>
+          className="text-4xl text-center">Achivements</motion.h2>
 
           <motion.p
               whileInView={{opacity:1,x:0}}
